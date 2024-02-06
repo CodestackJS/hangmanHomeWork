@@ -79,25 +79,19 @@ userInput.addEventListener('keydown', function(event){
 function hung(points){
     switch(points){
         case 1:
-        hangman.innerText = " You ";
+        hangman.innerText = "You";
         break;
         case 2:
-        hangman.innerText = " You are";
+        hangman.innerText = "You are";
         break;
         case 3:
-        hangman.innerText = " You are getting";
+        hangman.innerText = "You are getting";
         break;
         case 4:
-        hangman.innerText = " You are getting close ";
+        hangman.innerText = "You are getting close ";
         break;
         case 5:
-        hangman.innerText = " You are getting close to being ";
-        break;
-        case 6:
-        hangman.innerText = " You are getting close to being hung";
-        break;
-        default:
-        hangman.innerText = "******";
+        hangman.innerText = "You are getting close to being hung ";
         break;
     }
 }
@@ -153,12 +147,9 @@ function gameEnd(){
     // win: Check if randomWord === letterArray
     if(guesses === maxGuesses){
         alert(`You lost! Your word was ${randomWord}`);
-        resetGame();
     }
     else if(letterArray.join("") === randomWord){
         alert(`You win! Your word was ${randomWord}`);
-        resetGame();
-
     }
 
     
