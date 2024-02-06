@@ -11,3 +11,4 @@
 
 // Person who Peer Reviewed your assignment : Tony Fernandez ; Alejandro De La Cruz-Rubio
 
+//Alejandro's peer review comment: code is clean and understandable. hangman design is nice and fun to look at. the "suprise" is a nice touch.
